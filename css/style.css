@@ -1,0 +1,605 @@
+:root {
+    --yasil: #53d153;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background: url('../img/headerbg.jpg') center/cover;
+}
+nav { padding: 5px 30px;}
+menu li { padding: 0 13px}
+menu li a {
+    font: 1em 'Proxima Nova';
+    color: #fff;
+    white-space: nowrap;
+}
+
+#search { 
+    display: flex;
+}
+#search input, #search button {
+    border: none;
+    outline: none;
+    height: 27px;
+    background: #ffffffcc;
+}
+#search input { border-radius: 1em 0 0 1em; padding: 5px 15px;}
+#search button {  border-radius: 0 1em 1em 0; }
+#search button img {  height: 22px;}
+
+#title button {
+    font: 1.4em 'Proxima Nova';
+    text-transform: uppercase;
+    border: none;
+    border-radius: 26px;
+    background: var(--yasil);
+    padding: 10px 27px;
+    color: #fff;
+}
+
+#scroll { 
+    padding: 10px 0;
+}
+#scroll a {
+    font: 1em 'Proxima Nova';
+    color: #111;
+    background: #ffffffb3;
+    padding: 5px 26px;
+    border-radius: 1em
+}
+
+main section { 
+    padding: 40px 0;
+    text-align: center;
+}
+main section hr {
+    border: none;
+    width: 43px;
+    height: 2px;
+    background: #818181;
+} 
+
+h1 {
+    font: bold 2em Montserrat;
+    color: #fff;
+}
+h2 {
+    font: 1.2em Montserrat;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #818181;
+}
+h3 { 
+    font: bold 1.5em 'Proxima Nova';
+    text-transform: capitalize;
+    color: #828181;
+    padding: 1em 0;
+}
+h6 {
+    font: 1em 'Open Sans';
+    color: #b3b3b3;
+}
+
+.bgyasil { background: var(--yasil) }
+.bgag { background: #fff }
+.bgboz { background: #f1f1f1 }
+
+.bgyasil h2 { color: #1f7b1f }
+.bgyasil h6 { color: #2b9b2b }
+.bgyasil hr { background: #1f7b1f }
+
+#whatwedo .row {
+    padding: 48px 0;
+}
+#whatwedo .row article {
+    padding: 24px 15px;
+}
+#whatwedo .row article a { 
+    display: inline-block;
+    font: bold 1em 'Proxima Nova';
+    color: #fff;
+    background: var(--yasil);
+    padding: 7px 20px;
+    border-radius: 1em;
+    margin: 20px 0 0 0;
+}
+
+.iconrf {
+    display: flex;
+    width: 142px;
+    height: 142px;
+    background: #e0f3e0;
+    border-radius: 30px;
+    margin: auto;
+}
+.iconrf i {
+    margin: auto;
+    font-size: 4.5em;
+    color: var(--yasil)
+}
+
+#btn3 { 
+    display: flex; 
+    justify-content: center;
+    padding: 50px;
+}
+#btn3 button { 
+    font: 1em 'Proxima Nova';
+    color: #2b9b2b;
+    border: 1px solid #2b9b2b;
+    background: #fff;
+    padding: 5px 11px
+}
+#btn3 button.active, #btn3 button:hover { 
+    background: #2b9b2b;
+    color: #fff;
+ }
+#btn3 button:first-child { border-radius: 20px 0 0 20px; }
+#btn3 button:last-child { border-radius: 0 20px 20px 0; }
+
+#gallery img {
+    width: 100%;
+    padding: 1em;
+}
+#btn4 a{
+    padding: 13px 17px;
+    background: #2b9b2b;
+    font    : 1.1em 'Proxima Nova';
+   
+    text-align: center;
+    color: #fff;
+    border-radius: 18px;
+}
+#btn4{
+    margin: 56px 0;
+}
+#testimonial_title{
+    display:flex ;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 71px;
+    max-width: 561px;
+    p{
+        
+        color: #444;
+        font: 1em 'Proxima Nova';
+        
+    }
+    span{
+        color: #444444;
+        font-size: 2em;
+    }
+}
+#testtitle{
+   margin: 0 80px;
+}
+#mrherp{
+    margin-top: 17px;
+    display: flex;
+    justify-content: center;
+align-items: center;
+    gap: 10px;
+    img{
+        border: 2px solid #8b8a8ac2;
+        border-radius: 50%;
+        padding: 7px;
+    }
+    h5{
+        font-size: 16px;
+color: #444444;
+font-family: "Proxima Nova";
+text-align: left;
+    }
+    p{
+        font-size: 16px;
+color: #cccccc;
+font-weight: bold;
+font-family: "Proxima Nova";
+text-align: left;
+    }
+}
+.left{
+    text-align: left;
+}
+
+.ohk_logos{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 40px;
+    margin-top: 84px;
+}
+#btn5{
+    padding: 13px 17px;
+    color: #a59d9d;
+    background: #dddcdc;
+    font: 1.1em 'Proxima Nova';
+    
+    border-radius: 18px;
+    margin: 56px 0;
+    width: 190px;
+    
+}
+#ohk{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+}
+#staffs{
+    margin-top: 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+    hr{
+        width: 3px;
+        height: 78px;
+        color: #1f7b1f;
+    }
+    
+
+}
+#staffs div img{
+    
+    border-radius: 50%;
+    padding: 20px 30px;
+}
+
+#staffs div p{
+    font-size: 16px;
+color: #ffffff;
+font-family: "Proxima Nova";
+text-align: center;
+margin: 10px 0;
+}
+#staff_icons{
+    
+    margin: auto;
+    width: max-content;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 15px;
+}
+#staffbutton{
+    margin-top: 64px;
+    width: 100%;
+    background-color: #3eba3e;
+    padding: 27px;
+}
+
+#btn6 a{
+    padding: 13px 17px;
+    background: #53d153;
+    font-size: 19px;
+color: #ffffff;
+font-weight: 300;
+font-family: "Proxima Nova";
+text-align: center;
+border-radius: 20px;
+}
+
+.staffsection{
+    padding-bottom: 0!important;
+}
+
+footer{
+    background-color: #333;
+}
+#footersection1{
+    padding: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#footercrt1{
+
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    hr{
+        margin-bottom: 24px;
+        height: 1px ;
+        width: 30px;
+    }
+    h5{
+        font-size: 16px;
+        letter-spacing: 3px;
+        color: #dddddd;
+        font-weight: 300;
+        font-family: "Montserrat";
+        text-align: center;
+    }
+    p{
+        width: 316px;
+        height: 253px;
+        font-size: 16px;
+        color: #cccccc;
+        font-family: "Proxima Nova";
+        text-align: center;
+    }
+}
+.footersection2title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+#footercrt2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    hr{
+        margin-bottom: 24px;
+        height: 1px ;
+        width: 30px;
+    }
+    h5{
+        font-size: 16px;
+        letter-spacing: 3px;
+        color: #dddddd;
+        font-weight: 300;
+        font-family: "Montserrat";
+        text-align: center;
+    }
+    div img {
+        width: 53px;
+    }
+    p{
+        font-size: 16px;
+        color: #cccccc;
+        font-weight: 300;
+        font-family: "Montserrat";
+        text-align: center;
+    }
+    
+}
+.footerbtn{
+    font-size: 12px;
+color: #ffffff;
+font-weight: 300;
+font-family: "Montserrat";
+text-align: center;
+padding: 1px;
+border: none;
+border-radius: 3px;
+}
+.fbtn1{background-color: #53d153;}
+.fbtn2{background-color: #ffba00;}
+.fbtn3{background-color: #089cea;}
+.fbtn4{background-color: #f34c03;}
+.fbtn5{background-color: #ffba00;}
+
+#footercrt3{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    hr{
+        margin-bottom: 24px;
+        height: 1px ;
+        width: 30px;
+    }
+    h5{
+        margin-top: 15px;
+        font-size: 16px;
+        letter-spacing: 3px;
+        color: #dddddd;
+        font-weight: 300;
+        font-family: "Montserrat";
+        text-align: center;
+    }
+    p{
+        font-size: 14px;
+        color: #cccccc;
+        font-weight: 300;
+        font-family: "Proxima Nova";
+        text-align: center;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        gap: 5px;
+        input:first-child{
+            border-radius: 5px 5px 0 0;
+        }
+        input{
+            width: 100%;
+            padding: 11px;
+            background: #434343;
+            border: none;
+        }
+        textarea{
+            width: 100%;
+            padding: 11px;
+            background: #434343;
+            border: none;
+            height: 131px;
+        }
+        button{
+            width: 100%;
+            padding: 11px;
+            background-color: #2b9b2b;
+            border: none;
+            border-radius: 0 0 5px 5px;
+            font-size: 14px;
+            color: #ffffff;
+            font-family: "Proxima Nova";    
+            text-transform: uppercase;
+        }
+
+    }
+
+}
+#footersection2{
+    padding: 23px;
+    background-color: #212121;
+    h2{
+        font-size: 16px;
+    letter-spacing: 3px;
+    color: #101010;
+    font-weight: 300;
+    font-family: "Montserrat";
+    text-align: center;
+    }
+    hr{
+        height: 2px;
+        width: 30px;
+       border: 2px solid #101010;
+        
+    }
+
+}
+#footersection2img{
+    margin: 25px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+#footersection3{
+    background-color: #111;
+    padding: 10px;
+    p{
+        font-size: 16px;
+color: #ffffff;
+font-family: "Proxima Nova";
+text-align: center;
+    }
+}
+.fa-basketball{color: #e94b89;}
+.fa-behance{color: #1d52aa;}
+.fa-twitter{color: #00abed;}
+@media only screen and (min-width: 768px) {
+    nav { 
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    menu { 
+        order: -1;
+        display: flex;
+        flex: 1 1 40%;
+    }
+    menu li a.active, menu li a:hover {
+        border-top: 5px solid var(--yasil);
+        font-weight: bold;
+    }
+    #logo { flex: 1 1 20%; } 
+    #search { 
+        flex: 1 1 40%; 
+        justify-content: end;
+    }
+    h1 { font-size: 3.4em; }
+    #whatwedo .row {
+        display: flex;
+        justify-content: center;
+    }
+    #whatwedo .row article { flex: 0 1 350px; }
+    #gallery {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        max-width: 950px;
+        margin: auto;
+    }
+    #gallery img {
+        width: 160px;
+        height: 160px;
+        object-fit: cover;
+    }
+    .ohk_logos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 950px;
+        margin: auto;
+        gap: 120px;
+        margin-top: 84px;
+    }
+    .ohk_logo{
+        width: 142px;
+    }
+    #staffs{
+        margin-top: 56px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 11px;
+        hr{
+            width: 3px;
+            height: 78px;
+            color: #1f7b1f;
+        }
+        
+    
+    }
+    #footersection1{
+        padding: 23px;
+        display: flex;
+        flex-direction: row;
+    }
+    #footercrt3{
+        width: 33.33%;
+        form{
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            gap: 5px;
+            input:first-child{
+                border-radius: 5px 5px 0 0;
+            }
+            input{
+                width: 322px;
+                padding: 11px;
+                background: #434343;
+                border: none;
+            }
+            textarea{
+                width: 322px;
+                padding: 11px;
+                background: #434343;
+                border: none;
+                height: 131px;
+            }
+            button{
+                width: 322px;
+                padding: 11px;
+                background-color: #2b9b2b;
+                border: none;
+                border-radius: 0 0 5px 5px;
+                font-size: 14px;
+                color: #ffffff;
+                font-family: "Proxima Nova";    
+                text-transform: uppercase;
+            }
+    
+        }
+    }
+    #footersection2img{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+    }
+}
